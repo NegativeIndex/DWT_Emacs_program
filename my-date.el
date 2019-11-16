@@ -28,8 +28,8 @@
   (if (string-match "Nov"  month) (setq mm "11"))
   (if (string-match "Dec"  month) (setq mm "12"))  
 
-  (setq bfix "***** ")
-  (setq afix " *****\n")
+  (setq bfix "")
+  (setq afix "\n====================================\n")
 
   (setq output (concat bfix year "-" mm "-" day "   " time afix))
 
